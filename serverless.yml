@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: goose-api
+service: bourbon-api
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
@@ -34,7 +34,7 @@ provider:
   runtime: nodejs12.x
   region: ap-northeast-1
   stage: ${opt:stage, 'dev'}
-  profile: gooseFinance
+  profile: bourbonFinance
   logRetentionInDays: 30
   environment:
     Provider: "https://bsc-dataseed.binance.org/"
