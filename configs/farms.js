@@ -5,15 +5,15 @@ export const farmsConfig = [
     {
         pid: 0,
         risk: 5,
-        lpSymbol: 'EGG-BUSD LP',
+        lpSymbol: 'BRRL-BUSD LP',
         lpAddresses: {
             97: '',
             56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
         },
-        tokenSymbol: 'EGG',
+        tokenSymbol: 'BRRL',
         tokenAddresses: {
             97: '',
-            56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+            56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
         },
         quoteTokenSymbol: QuoteToken.BUSD,
         quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ export const farmsConfig = [
     {
         pid: 1,
         risk: 5,
-        lpSymbol: 'EGG-BNB LP',
+        lpSymbol: 'BRRL-BNB LP',
         lpAddresses: {
             97: '',
             56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
         },
-        tokenSymbol: 'EGG',
+        tokenSymbol: 'BRRL',
         tokenAddresses: {
             97: '',
-            56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+            56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
         },
         quoteTokenSymbol: QuoteToken.BNB,
         quoteTokenAdresses: contracts.wbnb,
