@@ -8,7 +8,7 @@ export const farmsConfig = [
         lpSymbol: 'BRRL-BUSD LP',
         lpAddresses: {
             97: '',
-            56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+            56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33',
         },
         tokenSymbol: 'BRRL',
         tokenAddresses: {
@@ -24,7 +24,7 @@ export const farmsConfig = [
         lpSymbol: 'BRRL-BNB LP',
         lpAddresses: {
             97: '',
-            56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+            56: '0xb9120b8881F577dB430966C6A8DdD0f993518295',
         },
         tokenSymbol: 'BRRL',
         tokenAddresses: {
